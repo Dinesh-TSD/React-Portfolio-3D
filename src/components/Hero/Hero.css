@@ -1,0 +1,66 @@
+.header{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    width: 100% !important;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem ;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-pic{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+
+.left h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 247, 5);
+}
+.left h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.left h4{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+}
+.cv_buttons{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.hire-btn{
+    background-color:  rgb(252, 44, 12) !important;
+    color: white !important;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+.hire-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cv_buttons {
+      flex-direction: column;
+    }
+  
+  }

@@ -1,0 +1,30 @@
+.project-cointainer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.pro-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.project-bg{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+.project-card{
+    margin: 30px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-cointainer{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .project-card{
+        margin: auto;
+    }
+  
+  }

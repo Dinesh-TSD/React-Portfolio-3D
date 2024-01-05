@@ -1,0 +1,10 @@
+
+.footer-icons{
+    display: flex;
+    justify-content: center !important;
+}
+
+.footer-container{
+    background: linear-gradient(rgba(145, 115, 255, 0.333),rgba(55, 0, 255, 0.274),rgba(199, 195, 253, 0.468));
+    color: white !important;
+}

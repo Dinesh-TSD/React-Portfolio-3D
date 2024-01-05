@@ -1,0 +1,41 @@
+.contact-container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.form-right{
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(rgb(148, 119, 253),rgba(255, 255, 255, 0.605),rgb(152, 115, 255));
+}
+.form-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-right h3{
+    color: rgb(255, 60, 0);
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-label{
+    font-weight: 600;
+    font-size: 20px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-container{
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        
+    }
+    .form-right{
+        margin: 10px;
+    }
+    .form-left{
+        margin: 10px;
+    }
+  
+  }

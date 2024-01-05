@@ -1,0 +1,80 @@
+.navbar {
+    background-color: rgb(10, 1, 30) !important;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+}
+
+.nav-link::before {
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(rgb(219, 206, 255), rgb(68, 0, 255), rgb(145, 112, 254));
+    border-radius: 0.5rem;
+    position: absolute;
+    opacity: 0;
+    bottom: -0.1rem;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.navbar-brand {
+    padding-top: 6px;
+    margin-left: 5px;
+    color: white !important;
+}
+
+.fire {
+    height: 35px;
+    width: 35px;
+}
+
+.nav-item {
+    padding-left: 50px;
+}
+
+.contact-btn {
+    color: white !important;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: rgb(255, 34, 0);
+    height: 32px !important;
+    width: 80px;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 15px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.contact-btn:hover{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.107);
+}
+.offcanvas-body,
+.offcanvas-header {
+    background-color: rgb(10, 1, 30) !important;
+    color: white !important;
+}
+
+.offcanvas-end {
+    width: 223px !important;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    
+  
+  }

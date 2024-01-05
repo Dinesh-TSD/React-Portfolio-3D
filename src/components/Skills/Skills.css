@@ -1,0 +1,126 @@
+.skill-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.skill-heading{
+    display: flex;
+    justify-content: center;
+}
+.skill-heading h1{
+    color: white;
+}
+.skill-icons{
+    background: linear-gradient(rgba(253, 252, 255, 0.514),rgba(255, 255, 255, 0.605),rgb(152, 115, 255));
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.skill-icon-html{
+    color: rgb(255, 71, 39);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.skill-icon-css{
+    color: rgb(0, 26, 255);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-bts{
+    color: rgb(85, 0, 255);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-js{
+    color: rgb(255, 220, 45);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-rjs{
+    color: rgb(39, 147, 255);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-njs{
+    color: rgb(0, 113, 6);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-exp{
+    color: rgb(255, 237, 39);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-mdb{
+    color: rgb(39, 255, 46);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-sql{
+    color: rgb(216, 141, 0);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.skill-icon-git{
+    color: rgb(255, 58, 24);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.skill-icon-github{
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.skill-icon-aws{
+    color: rgb(2, 0, 26);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.skill-icon-dsa{
+    color: rgb(207, 249, 255);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.skill-icon-python{
+    color: rgb(255, 183, 39);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .skill-icons {
+      width: 100% !important;
+    }
+    .skill-bg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5px;
+    }
+  
+  }

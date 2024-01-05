@@ -41,7 +41,7 @@ const Hero = () => {
               </a>
             </div>
             <div className="col-xl-6 col-lg-6 ">
-              <a href="./images/Resume.pdf" download className="btn hire-btn">
+              <a href="./images/Resume3D.pdf" download className="btn hire-btn">
                 Download CV
               </a>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { Element } from "react-scroll";
 import { MDBBtn, MDBContainer, MDBFooter, MDBIcon } from "mdb-react-ui-kit";
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -14,23 +14,23 @@ const Hero = () => {
 
           <div className="hero-name">
             <span className="primary-text">
-              <h1>I Am a MERN Stack Developer</h1>
-              {" "}
-              <h2>
-                {" "}
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "MERN Stack Developer",
-                    1500,
-                    "Full Stack Developer",
-                    1500,
-                    "React Developer",
-                    1500,
-                    "Ethusiastic  Developer",
-                    1500,
-                  ]}
-                />
+              <h2 className="role">
+                I Am a{" "}
+                <span className="role-span">
+                  <Typewriter
+                    words={[
+                      "MERN Stack Developer",
+                      "Recat Developer",
+                      "Full Stack Developer",
+                      "Enthusiastic Developer",
+                    ]}
+                    loop={5}
+                    cursor
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
               </h2>
             </span>
           </div>

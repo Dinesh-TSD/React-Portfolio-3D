@@ -6,7 +6,7 @@ const Exprience = () => {
   return (
     <Element name="exp" className="container-fluid exp-container">
       <div className="exp-heading">
-          <h1>Exprience</h1>
+          <h1>Experience</h1>
         </div>
       <div className="exp">
         

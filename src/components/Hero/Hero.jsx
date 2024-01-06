@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css";
 import { Element } from "react-scroll";
-import Typical from "react-typical";
 import { MDBBtn, MDBContainer, MDBFooter, MDBIcon } from "mdb-react-ui-kit";
 
 const Hero = () => {
@@ -14,7 +13,8 @@ const Hero = () => {
 
           <div className="hero-name">
             <span className="primary-text">
-              {" "}
+              <h1>I Am a MERN Stack Developer</h1>
+              {/* {" "}
               <h2>
                 {" "}
                 <Typical
@@ -30,7 +30,7 @@ const Hero = () => {
                     1500,
                   ]}
                 />
-              </h2>
+              </h2> */}
             </span>
           </div>
 
